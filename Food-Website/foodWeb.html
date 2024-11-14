@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="foodWeb.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Food Restaurant Website</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">FoodJo</div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Gallery</a></li>
+                </ul>
+            </nav>
+
+            <div class="buttons">
+                <button class="btn">Sign In</button>
+                <button class="btn btn-primary">sign Up</button>
+            
+
+                <div class="cart-icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span class="cart-count">0</span>
+                </div>
+
+                <div class="hamburger" id="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section class="hero">
+                <div class="hero-text">
+                    <h1>Order Your Best Food Anytime</h1>
+                    <p>Hey, our delicious food is waiting for you,
+                       we are always near to you with fresh item od food.
+                    </p>
+                    <button class="btn btn-primary">Learn more</button>
+                </div>
+                <div class="hero-image">
+                    <img src="1.png" alt="delicious food" id="heroImage">
+                </div>
+            </section>
+            <section class="popular-dishes">
+                <h2>Popular Dishes</h2>
+                <div class="dishes">
+
+                    <div class="dish" data-img="2.png">
+                        <img src="2.png" alt="burger">
+                        <p>Onion With Cheese</p>
+                        <span class="price">$24.00</span>
+                        <button class="add-to-cart" data-name="burger" data-price="$24.00">
+                            <i class="fas fa-plus"></i>
+                        </button>
+                    </div>
+
+                    <div class="dish" data-img="3.png">
+                        <img src="3.png" alt="burger">
+                        <p>Onion With Cheese</p>
+                        <span class="price">$20.00</span>
+                        <button class="add-to-cart" data-name="maggie" data-price="$20.00">
+                            <i class="fas fa-plus"></i>
+                        </button>
+                    </div>
+
+
+                    <div class="dish" data-img="4.png">
+                        <img src="4.png" alt="burger">
+                        <p>Onion With Cheese</p>
+                        <span class="price">$34.00</span>
+                        <button class="add-to-cart" data-name="pizza" data-price="$34.00">
+                            <i class="fas fa-plus"></i>
+                        </button>
+                    </div>
+
+                    <div class="dish" data-img="5.png">
+                        <img src="5.png" alt="burger">
+                        <p>Onion With Cheese</p>
+                        <span class="price">$40.00</span>
+                        <button class="add-to-cart" data-name="momos" data-price="$40.00">
+                            <i class="fas fa-plus"></i>
+                        </button>
+                    </div>
+
+                </div>
+            </section>
+        </main>
+
+
+    </div>
+
+    <script src="foodWeb.js"></script>
+</body>
+</html>
