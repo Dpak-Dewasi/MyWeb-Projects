@@ -1,0 +1,48 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(42, 68, 120);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardBox
+{
+    width: 50%;
+    height: 50%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 2px 1px 30px black;
+}
+.leftbox
+{
+    padding: 50px;
+    width: 50%;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    background-color: rgb(86, 4, 104);
+}
+.rightbox
+{
+    width: 50%;
+    height: 100%;
+    background-image: url("cardimg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.followers
+{
+    display: flex;
+    justify-content: space-between;
+}
